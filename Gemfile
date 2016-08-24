@@ -5,7 +5,7 @@ gem 'rails', '4.0.5'
 
 # Use sqlite3 as the database for Active Record
 group :development do
-gem 'sqlite3', '1.3.8'
+gem 'sqlite3', '1.3.11'
 end
 
 # Use SCSS for stylesheets
@@ -33,6 +33,8 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
+
+gem 'coffee-script-source', '1.8.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
